@@ -1,20 +1,20 @@
-const ulist = document.querySelector(".expense")
+const ulist = document.querySelector(".expense");
 
-console.log(ulist)
+console.log(ulist);
 
-const arrayExp = ["Banana", "Lattuga", "Pollo","Riso Basmati","Gelato","Nutella","Latte"]
+const arrayExp = ["Banana", "Lattuga", "Pollo","Riso Basmati","Gelato","Nutella","Latte"];
 
-let i = 0
+let i = 0;
 
 while(i < arrayExp.length){
 
-const piece = document.createElement("li")
+    const piece = document.createElement("li");
 
-piece.innerHTML = arrayExp[i]
+    piece.innerHTML = arrayExp[i];
 
-ulist.appendChild(piece)
+    ulist.appendChild(piece);
 
-i++; 
+    i++; 
 
 }
 
